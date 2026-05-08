@@ -33,12 +33,12 @@ export interface EngineResponse {
 
 ORDERBOOKS.set("BTC", {
   bids: new Map([
-    [98, [{ orderId: ""seed-bid-1", userId: "seed-seller", side: "buy", type: "limit", symbol: "BTC", price: 98, qty: 5, filledQty: 0, status: "open", createdAt: Date.now() }]],
-    [97, [{ orderId: "seed-bid-2", userId: "seed-seller", side: "buy", type: "limit", symbol: "BTC", price: 97, qty: 3, filledQty: 0, status: "open", createdAt: Date.now() }]],
+    [98, [{ orderId: "bid-1", userId: "seed-seller", side: "buy", type: "limit", symbol: "BTC", price: 98, qty: 5, filledQty: 0, status: "open", createdAt: Date.now() }]],
+    [97, [{ orderId: "bid-2", userId: "seed-seller", side: "buy", type: "limit", symbol: "BTC", price: 97, qty: 3, filledQty: 0, status: "open", createdAt: Date.now() }]],
   ]),
   asks: new Map([
-    [100, [{ orderId: "seed-ask-1", userId: "seed-buyer", side: "sell", type: "limit", symbol: "BTC", price: 100, qty: 5, filledQty: 0, status: "open", createdAt: Date.now() }]],
-    [101, [{ orderId: "seed-ask-2", userId: "seed-buyer", side: "sell", type: "limit", symbol: "BTC", price: 101, qty: 3, filledQty: 0, status: "open", createdAt: Date.now() }]],
+    [100, [{ orderId: "ask-1", userId: "seed-buyer", side: "sell", type: "limit", symbol: "BTC", price: 100, qty: 5, filledQty: 0, status: "open", createdAt: Date.now() }]],
+    [101, [{ orderId: "ask-2", userId: "seed-buyer", side: "sell", type: "limit", symbol: "BTC", price: 101, qty: 3, filledQty: 0, status: "open", createdAt: Date.now() }]],
   ]),
 });
 
